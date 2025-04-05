@@ -1,0 +1,107 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #ffe5b4, #ffcccb, #fff5e1); /* Peach, pink, and cream gradient */
+  font-family: 'Comic Sans MS', cursive, sans-serif; /* Fun font for a playful vibe */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 80%;
+  width: 90%;
+  max-width: 600px;
+  
+  border-radius: 20px;
+
+  padding: 20px;
+}
+.content{
+  height: 80%;
+  width: 60%;
+  border: 2px solid #ffcccb;
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  box-shadow: 10px 8px 20px  rgba(0, 0, 0, 0.3 );
+}
+h1 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #ffcccb; 
+  border: none;
+  border-radius: 50px;
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #ffa07a; 
+  transform: scale(1.05); 
+}
+
+#next {
+  margin: 20px;
+  background-color: #ffe5b4; 
+  border: 3px solid #ffcccb; 
+  color: #333;
+  font-weight: bold;
+}
+
+.selectOption {
+  background-color: #90ee90; /* Light green for correct answer */
+  color: white;
+}
+
+.wrongAns {
+  background-color: #ff6b6b; /* Soft red for wrong answer */
+  color: white;
+}
+
+.btn {
+  display: none;
+}
+
+.newDiv {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(135deg, #ffe5b4, #ffcccb, #fff5e1); /* Same gradient as body */
+}
+
+img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%; /* Circular image for a playful look */
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 28px;
+  color: #333;
+  margin-top: 20px;
+}
